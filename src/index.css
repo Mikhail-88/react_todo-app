@@ -215,6 +215,7 @@ body {
   display: block;
   line-height: 1.2;
   transition: color 0.4s;
+  cursor: pointer;
 }
 
 .todo-list li.completed label {
@@ -302,7 +303,7 @@ body {
   display: inline;
 }
 
-.filters li a {
+.filters li button {
   color: inherit;
   margin: 3px;
   padding: 3px 7px;
@@ -311,11 +312,11 @@ body {
   border-radius: 3px;
 }
 
-.filters li a:hover {
+.filters li button:hover {
   border-color: rgba(175, 47, 47, 0.1);
 }
 
-.filters li a.selected {
+.filters li button.selected {
   border-color: rgba(175, 47, 47, 0.2);
 }
 
